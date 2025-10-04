@@ -32,7 +32,7 @@ db.SaleItem = defineSaleItemModel(sequelize);
 // 💡 CRÍTICO: Definición faltante
 db.CashRegisterClosure = defineCashRegisterClosureModel(sequelize); 
 
-// 3. Almacenar la instancia de Sequelize
+// 3. Hola la instancia de Sequelize
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
